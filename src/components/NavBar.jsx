@@ -1,23 +1,20 @@
-import CartWidget from "./CartWidget";
+import { Link } from "react-router-dom";
 
-function NavBar() {
+const NavBar = () => {
   return (
-    <nav className="navbar">
-      <h1>ZEUS</h1>
-      <ul className="nav-links">
-        <li>
-          <a href="#">Inicio</a>
-        </li>
-        <li>
-          <a href="#">Productos</a>
-        </li>
-        <li>
-          <a href="#">Contacto</a>
-        </li>
-      </ul>
-      <CartWidget />
+    <nav style={{ padding: "1rem", background: "#eee" }}>
+      <Link to="/" style={{ marginRight: "1rem" }}>
+        Inicio
+      </Link>
+      <Link to="/category/remeras" style={{ marginRight: "1rem" }}>
+        Remeras
+      </Link>
+      <Link to="/category/pantalones" style={{ marginRight: "1rem" }}>
+        Pantalones
+      </Link>
+      <Link to="/category/zapatillas">Zapatillas</Link>
     </nav>
   );
-}
+};
 
 export default NavBar;
