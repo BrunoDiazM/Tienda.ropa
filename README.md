@@ -1,21 +1,27 @@
-# Tienda de Ropa Deportiva -
+# 🛍️ Tienda Ropa - E-commerce React
 
----
+Este proyecto es una aplicación web de e-commerce desarrollada con **React**, que permite explorar un catálogo de productos, ver detalles, agregar al carrito y realizar una compra final utilizando **Firebase Firestore** como base de datos.
 
-## Descripción
+## 🚀 Funcionalidades
 
-Este proyecto es una tienda online de ropa deportiva desarrollada con React y
-Vite.  
-Permite mostrar productos, categorías, y un carrito de compras básico con un
-ícono que indica la cantidad de productos agregados.
+- Navegación SPA con React Router
+- Catálogo de productos dinámico
+- Filtrado por categorías
+- Vista detallada de cada producto
+- Selección de cantidad y agregado al carrito
+- Carrito persistente con contexto global (`CartContext`)
+- Registro de compras en Firebase Firestore
+- Mensajes condicionales según estado de productos y carrito
 
----
+## 🧩 Tecnologías utilizadas
 
-## Tecnologías utilizadas
+- React
+- React Router DOM
+- Firebase (Firestore)
+- JavaScript (ES6+)
+- CSS básico / inline
 
-- React (JavaScript)
-- Vite (bundler)
-- CSS para estilos básicos
-- Git y GitHub para control de versiones
+## 📂 Estructura del proyecto
 
----
+👨‍💻 Autor
+Bruno Díaz — Desarrollador Web Frontend
