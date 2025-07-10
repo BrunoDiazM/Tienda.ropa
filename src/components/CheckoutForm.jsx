@@ -24,7 +24,7 @@ const CheckoutForm = () => {
         id: item.id,
         title: item.title,
         price: item.price,
-        quantity: item.cantidad, // 👈 importante que coincida
+        quantity: item.cantidad, 
       })),
       total: total,
       date: new Date(),
